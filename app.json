@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Student",
-    "slug": "Student",
-    "version": "1.0.0",
+    "name": "Student Life Tracker",
+    "slug": "student",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#28313F"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.sakthi.student"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "74457f0f-9bbd-4cb3-aeb8-27e993878a29"
+      }
     }
   }
 }
