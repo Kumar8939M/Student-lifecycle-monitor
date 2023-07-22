@@ -12,7 +12,7 @@ export default function App() {
     switch (action.type){
       case "Toggle":
         if(state.theme==="dark")
-          return theme.light
+          return theme.light   
         else
           return theme.dark
       case "Auth":
