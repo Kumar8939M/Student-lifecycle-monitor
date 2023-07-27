@@ -6,7 +6,7 @@ import { useReducer } from 'react';
 import { themeContext,authContext } from './config/themeContext';
 import NoteProvider from './config/NoteProvider';
 
-export default function App() {
+export default function App() { 
 
   function reducer(state,action){ 
     switch (action.type){
