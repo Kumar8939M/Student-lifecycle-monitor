@@ -8,7 +8,7 @@ import NoteProvider from './config/NoteProvider';
 
 export default function App() {
 
-  function reducer(state,action){
+  function reducer(state,action){ 
     switch (action.type){
       case "Toggle":
         if(state.theme==="dark")
