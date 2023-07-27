@@ -19,7 +19,7 @@ export default function App() {
         return action.state
     }
   }
-  {}
+  
   function toggle(){
     themeDispatch({type:"Toggle"})
   }
